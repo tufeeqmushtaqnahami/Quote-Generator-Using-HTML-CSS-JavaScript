@@ -17,15 +17,17 @@
     center/cover;
 }
 .head {
-  background-color: azure;
-  margin: 20px;
+  background-color: rgb(0, 0, 0);
+  margin: 20px ;
   font-size: 1.7rem;
-  padding: 10px;
+  padding: 7px 20px;
   border-radius: 5px;
+  color: white;
+  border: 1px solid white;
 }
 
 .main-content {
-  background-color: aliceblue;
+  background-color: rgb(177, 177, 177);
   height: 250px;
   width: 480px;
   display: flex;
@@ -45,12 +47,21 @@
 }
 
 .person{
-    
+    color: rgb(88, 42, 42);
     font-size: 1.2rem;
 }
 
 
 .button{
+  background-color: black;
     margin: 20px;
-    
+    font-size: 1.2rem;
+    color: white;
+    border-radius: 7px;
+    padding: 8px 15px;
+   
+}
+
+.button:hover{
+  cursor: pointer;
 }
